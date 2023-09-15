@@ -21,6 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Remove="Resources\Fonts\FontAwesomeDictionary.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Assets\Fonts\fa-brands-400.ttf" />
     <Content Include="Assets\Fonts\fa-duotone-900.ttf" />
     <Content Include="Assets\Fonts\fa-light-300.ttf" />
@@ -34,12 +38,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="MVVM\Models\" />
-    <Folder Include="MVVM\Controls\" />
     <Folder Include="MVVM\Views\" />
     <Folder Include="MVVM\ViewModels\" />
-    <Folder Include="MVVM\" />
-    <Folder Include="Resources\Styles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Fonts\FontAwesomeDictionary.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

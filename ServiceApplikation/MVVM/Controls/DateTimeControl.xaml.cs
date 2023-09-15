@@ -13,24 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ServiceApplikation
+namespace ServiceApplikation.MVVM.Controls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for DateTimeControl.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DateTimeControl : UserControl
     {
-        public MainWindow()
+        public DateTimeControl()
         {
             InitializeComponent();
-            this.WindowState = WindowState.Maximized;
-            this.WindowStartupLocation = WindowStartupLocation.CenterOwner;
-        }
-
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Left)
-                this.DragMove();
         }
     }
 }
