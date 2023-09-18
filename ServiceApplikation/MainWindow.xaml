@@ -34,7 +34,7 @@
 
                 <Button Grid.Column="2" FontFamily="{StaticResource FontAwesome-Regular}" Content="&#xf142;" FontSize="40" Background="Transparent"
                         Foreground="#cccccc" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0"/>
-            </Grid>
+                </Grid>
 
             <ItemsControl Grid.Row="1" Margin="0 20 0 0">
 
