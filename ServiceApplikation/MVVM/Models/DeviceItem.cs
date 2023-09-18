@@ -20,10 +20,10 @@ namespace ServiceApplikation.MVVM.Models
             switch (DeviceType?.ToLower()) 
             {
                 case "light":
-                    icon = "\uf0eb";
+                    Icon = "\uf0eb";
                     break;
                 case "fan":
-                    icon = "\ue004b";
+                    Icon = "\ue004b";
                     break;
                 default:
                     Icon = "\uf2db4";

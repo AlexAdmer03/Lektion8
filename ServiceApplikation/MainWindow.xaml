@@ -30,7 +30,6 @@
 
                 <controls:DateTimeControl Grid.Column="1"/>
 
-                <!--Settings Section-->
 
                 <Button Grid.Column="2" FontFamily="{StaticResource FontAwesome-Regular}" Content="&#xf142;" FontSize="40" Background="Transparent"
                         Foreground="#cccccc" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0"/>
